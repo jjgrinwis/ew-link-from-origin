@@ -4,12 +4,12 @@
   "description": "Get early hints link headers from origin and set in PMUSER var to be used in early hints behavior",
   "main": "index.ts",
   "config": {
-    "ewid": "95367",
-    "edgerc_section": "betajam",
+    "ewid": "",
+    "edgerc_section": "",
     "description": "Get early hints link headers from origin and set in PMUSER var to be used in early hints behavior",
     "ew_name": "ew-early-hints",
-    "tier": "200",
-    "ew_group_id": "48668"
+    "tier": "100",
+    "ew_group_id": ""
   },
   "scripts": {
     "build": "npm run build-ts",
