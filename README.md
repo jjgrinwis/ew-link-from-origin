@@ -1,7 +1,8 @@
 # 103 Early Hints via EdgeWorker
 
 A little Akamai EdgeWorker script to get some **link** headers from the origin and feed that into the [Akamai Early Hints behavior](https://techdocs.akamai.com/property-mgr/docs/early-hints) via a [PMUSER](https://techdocs.akamai.com/property-mgr/docs/user-defined-vars) variable.
-The Eary Hints behaviour works in the client request stage so our EdgeWorker script should be started using the *onClienRequest* event handler.
+The Eary Hints behaviour works in the client request stage so our EdgeWorker script should be started using the *onClienRequest* event handler. The handler that is triggered when a request enters an Akamai Edge Server:
+
 ![image](https://github.com/user-attachments/assets/9f50d754-1b6c-4bb3-8bd7-12f12fb5e030)
 *More info about the different event handlers can be found [here](https://techdocs.akamai.com/edgeworkers/docs/event-handler-functions).*
 
