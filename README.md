@@ -57,6 +57,10 @@ You should now see your early hints coming from your Link headers from your orig
 
 ![image](https://github.com/user-attachments/assets/35ce6363-2ba7-41c2-a037-43bdd67e0b33)
 
+When you have updated the page that you use to serve the Link headers, just purge it from cache so new version will be fetched and cached. Below the example where we used a separate CPcode for the page that serves the link headers and we invalidate the cache.
+```
+akamai purge invalidate --cpcode 123456
+```
 ### Debugging
 If you need to do some EdgeWorker debugging, just generate an EdgeWorker debug token.
 ```
