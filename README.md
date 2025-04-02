@@ -4,7 +4,7 @@ A little Akamai EdgeWorker script to get some **link** headers from the origin a
 The Eary Hints behaviour works in the *client request stage* so our EdgeWorker script should be started using the *onClienRequest* event handler. The handler that is triggered when a request enters an Akamai Edge Server:
 
 ![image](https://github.com/user-attachments/assets/9f50d754-1b6c-4bb3-8bd7-12f12fb5e030)
-More info about the different event handlers can be found [here](https://techdocs.akamai.com/edgeworkers/docs/event-handler-functions).
+More info about the different event handlers can be found [here](https://techdocs.akamai.com/edgeworkers/docs/event-handler-functions), and some other 103 Early Hints EdgeWorkers examples on the [Akamai Github repo.](https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/103-early-hints)
 
 ## Create .edgerc credentials
 If you are new to Akamai EdgeWorkers, you must create [EdgeWorkers API credentials](https://techdocs.akamai.com/edgeworkers/reference/api-get-started) as we're going to use the EdgeWorkers API to get things going.
